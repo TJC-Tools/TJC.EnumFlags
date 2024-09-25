@@ -11,3 +11,6 @@
 
 ### T.[ClearFlag\<T\>](./TJC.EnumFlags/Extensions/ClearFlag.cs)(T flag)
 - Clears a flag in an enum.
+
+### T.[ToggleFlag\<T\>](./TJC.EnumFlags/Extensions/ToggleFlag.cs)(T flag)
+- Toggles a flag in an enum.
