@@ -14,3 +14,6 @@
 
 ### T.[ToggleFlag\<T\>](./TJC.EnumFlags/Extensions/ToggleFlag.cs)(T flag)
 - Toggles a flag in an enum.
+
+### T.[GetFlags\<T\>](./TJC.EnumFlags/Extensions/GetFlags.cs)()
+- Gets all the flags in an enum.
