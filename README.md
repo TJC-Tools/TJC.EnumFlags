@@ -7,4 +7,7 @@
 ## Items
 
 ### T.[SetFlag\<T\>](./TJC.EnumFlags/Extensions/SetFlag.cs)(T flag)
-- Sets the flag in an enum.
+- Sets a flag in an enum.
+
+### T.[ClearFlag\<T\>](./TJC.EnumFlags/Extensions/ClearFlag.cs)(T flag)
+- Clears a flag in an enum.
