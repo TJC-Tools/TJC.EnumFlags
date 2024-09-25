@@ -17,3 +17,6 @@
 
 ### T.[GetFlags\<T\>](./TJC.EnumFlags/Extensions/GetFlags.cs)()
 - Gets all the flags in an enum.
+
+### T.[SetFlags\<T\>](./TJC.EnumFlags/Extensions/SetFlags.cs)()
+- Sets one or more flags on an enum.
