@@ -32,9 +32,6 @@
     <EmbeddedResource Include="..\LICENSE" />
   </ItemGroup>
   <!-- DEPENDENCIES -->
-  <ItemGroup>
-    <!-- N/A -->
-  </ItemGroup>
   <!-- TESTS -->
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
