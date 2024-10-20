@@ -2,6 +2,8 @@
 
 [![NuGet Downloads](https://img.shields.io/nuget/dt/TJC.EnumFlags)](https://www.nuget.org/packages/TJC.EnumFlags) ![Size](https://img.shields.io/github/repo-size/TJC-Tools/TJC.EnumFlags) [![License](https://img.shields.io/github/license/TJC-Tools/TJC.EnumFlags.svg)](LICENSE)
 
+[![codecov](https://codecov.io/gh/TJC-Tools/TJC.Test/graph/badge.svg?token=92707C5KH4)](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags)
+
 ## Items
 
 ### T.[SetFlag\<T\>](./TJC.EnumFlags/Extensions/SetFlag.cs)(T flag)
