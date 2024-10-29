@@ -15,7 +15,8 @@ public static partial class EnumFlags
     /// <param name="flag"></param>
     /// <returns></returns>
     /// <exception cref="ArgumentException"></exception>
-    public static void SetFlag<T>(this ref T flags, T flag) where T : struct, Enum
+    public static void SetFlag<T>(this ref T flags, T flag)
+        where T : struct, Enum
     {
         if (!typeof(T).IsEnum)
             throw new ArgumentException($"{nameof(T)} [{typeof(T).Name}] must be an enum.");
