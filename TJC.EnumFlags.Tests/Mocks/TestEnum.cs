@@ -17,5 +17,5 @@ internal enum TestEnum
     Option12 = 1 << 12,
     Option13 = 1 << 13,
     Option14 = 1 << 14,
-    Option15 = 1 << 15
+    Option15 = 1 << 15,
 }
