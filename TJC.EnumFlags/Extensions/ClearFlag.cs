@@ -16,6 +16,7 @@ public static partial class EnumFlags
             throw new ArgumentException($"{nameof(T)} [{typeof(T).Name}] must be an enum.");
 
         var flagsValue = Convert.ToUInt64(flags);
+        // Get flag to clear
         var flagValue = Convert.ToUInt64(flag);
 
         flagsValue &= ~flagValue;

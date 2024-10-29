@@ -7,9 +7,11 @@ public static partial class EnumFlags
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="flags"></param>
+    /// <param name="flagsToSet"></param>
     /// <returns></returns>
     /// <exception cref="ArgumentException"></exception>
-    public static void SetFlags<T>(this ref T flags, IEnumerable<T> flagsToSet) where T : struct, Enum
+    public static void SetFlags<T>(this ref T flags, IEnumerable<T> flagsToSet)
+        where T : struct, Enum
     {
         if (!typeof(T).IsEnum)
             throw new ArgumentException($"{nameof(T)} [{typeof(T).Name}] must be an enum.");
