@@ -7,20 +7,3 @@
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.EnumFlags.svg)](LICENSE)
 
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags/graph/badge.svg?token=J5SQ4CYSA9)](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags)
-
-## Items
-
-### T.[SetFlag\<T\>](./TJC.EnumFlags/Extensions/SetFlag.cs)(T flag)
-- Sets a flag in an enum.
-
-### T.[ClearFlag\<T\>](./TJC.EnumFlags/Extensions/ClearFlag.cs)(T flag)
-- Clears a flag in an enum.
-
-### T.[ToggleFlag\<T\>](./TJC.EnumFlags/Extensions/ToggleFlag.cs)(T flag)
-- Toggles a flag in an enum.
-
-### T.[GetFlags\<T\>](./TJC.EnumFlags/Extensions/GetFlags.cs)()
-- Gets all the flags in an enum.
-
-### T.[SetFlags\<T\>](./TJC.EnumFlags/Extensions/SetFlags.cs)()
-- Sets one or more flags on an enum.
