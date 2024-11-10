@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.2] - 2024-11-10
+
 ### Changed
 
 - Add all dependency `.dll's` to the release
@@ -43,7 +45,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Create extensions for get, set, clear & toggle flags
 
-[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.1...HEAD
+[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.2...HEAD
+
+[0.9.2]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.1...v0.9.2
 
 [0.9.1]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.0...v0.9.1
 
