@@ -7,3 +7,6 @@
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.EnumFlags.svg)](LICENSE)
 
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags/graph/badge.svg?token=J5SQ4CYSA9)](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags)
+
+## Documentation
+- [Changelog](CHANGELOG.md)
