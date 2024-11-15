@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.3] - 2024-11-15
+
 ### Added
 
 - Changelog changed check workflow for pr's
@@ -49,7 +51,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Create extensions for get, set, clear & toggle flags
 
-[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.2...HEAD
+[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.3...HEAD
+
+[0.9.3]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.2...v0.9.3
 
 [0.9.2]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.1...v0.9.2
 
