@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.6] - 2025-04-15
+
 ## [0.9.5] - 2024-12-03
 
 ## [0.9.4] - 2024-12-03
@@ -55,7 +57,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Create extensions for get, set, clear & toggle flags
 
-[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.5...HEAD
+[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.6...HEAD
+
+[0.9.6]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.5...v0.9.6
 
 [0.9.5]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.4...v0.9.5
 
