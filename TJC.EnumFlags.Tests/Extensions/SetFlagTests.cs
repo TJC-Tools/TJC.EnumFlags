@@ -3,10 +3,10 @@ using TJC.EnumFlags.Tests.Mocks;
 
 namespace TJC.EnumFlags.Tests.Extensions
 {
-    [TestClass]
+    
     public class SetFlagTests
     {
-        [TestMethod]
+        [Fact]
         public void NoOptionsSet_CheckForOption1_ReturnsFalse()
         {
             // Arrange
@@ -16,10 +16,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option1);
 
             // Assert
-            Assert.IsFalse(result);
+            Assert.False(result);
         }
 
-        [TestMethod]
+        [Fact]
         public void SetFlag_Option1_CheckForOption1_ReturnsTrue()
         {
             // Arrange
@@ -30,10 +30,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option1);
 
             // Assert
-            Assert.IsTrue(result);
+            Assert.True(result);
         }
 
-        [TestMethod]
+        [Fact]
         public void SetFlag_Option2_CheckForOption1_ReturnsTrue()
         {
             // Arrange
@@ -44,7 +44,7 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option1);
 
             // Assert
-            Assert.IsFalse(result);
+            Assert.False(result);
         }
     }
 }

@@ -3,10 +3,10 @@ using TJC.EnumFlags.Tests.Mocks;
 
 namespace TJC.EnumFlags.Tests.Extensions
 {
-    [TestClass]
+    
     public class GetFlagsTests
     {
-        [TestMethod]
+        [Fact]
         public void NoOptions_GetFlags_Returns0Flags()
         {
             // Arrange
@@ -16,10 +16,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.GetFlags();
 
             // Assert
-            Assert.AreEqual(0, result.Count());
+            Assert.Equal(0, result.Count());
         }
 
-        [TestMethod]
+        [Fact]
         public void Option1_GetFlags_Returns1Flag()
         {
             // Arrange
@@ -29,11 +29,11 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.GetFlags();
 
             // Assert
-            Assert.AreEqual(1, result.Count());
-            Assert.IsTrue(result.Contains(TestEnum.Option1));
+            Assert.Equal(1, result.Count());
+            Assert.True(result.Contains(TestEnum.Option1));
         }
 
-        [TestMethod]
+        [Fact]
         public void Options1And3_GetFlags_Returns2Flags()
         {
             // Arrange
@@ -43,10 +43,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.GetFlags();
 
             // Assert
-            Assert.AreEqual(2, result.Count());
-            Assert.IsTrue(result.Contains(TestEnum.Option1));
-            Assert.IsFalse(result.Contains(TestEnum.Option2));
-            Assert.IsTrue(result.Contains(TestEnum.Option3));
+            Assert.Equal(2, result.Count());
+            Assert.True(result.Contains(TestEnum.Option1));
+            Assert.False(result.Contains(TestEnum.Option2));
+            Assert.True(result.Contains(TestEnum.Option3));
         }
     }
 }

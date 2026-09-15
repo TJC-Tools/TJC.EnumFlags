@@ -3,10 +3,10 @@ using TJC.EnumFlags.Tests.Mocks;
 
 namespace TJC.EnumFlags.Tests.Extensions
 {
-    [TestClass]
+    
     public class ClearFlagTests
     {
-        [TestMethod]
+        [Fact]
         public void Option1_CheckForOption1_ReturnsTrue()
         {
             // Arrange
@@ -16,10 +16,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option1);
 
             // Assert
-            Assert.IsTrue(result);
+            Assert.True(result);
         }
 
-        [TestMethod]
+        [Fact]
         public void Option1_ClearFlagOption1_CheckForOption1_ReturnsFalse()
         {
             // Arrange
@@ -30,10 +30,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option1);
 
             // Assert
-            Assert.IsFalse(result);
+            Assert.False(result);
         }
 
-        [TestMethod]
+        [Fact]
         public void Option1And2_ClearFlagOption2_CheckForOption1_ReturnsFalse()
         {
             // Arrange
@@ -44,10 +44,10 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option1);
 
             // Assert
-            Assert.IsFalse(result);
+            Assert.False(result);
         }
 
-        [TestMethod]
+        [Fact]
         public void Option1And2_ClearFlagOption2_CheckForOption2_ReturnsTrue()
         {
             // Arrange
@@ -58,7 +58,7 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.HasFlag(TestEnum.Option2);
 
             // Assert
-            Assert.IsTrue(result);
+            Assert.True(result);
         }
     }
 }

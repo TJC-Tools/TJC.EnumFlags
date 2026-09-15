@@ -6,6 +6,7 @@
 ![Size](https://img.shields.io/github/repo-size/TJC-Tools/TJC.EnumFlags)
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.EnumFlags.svg)](LICENSE)
 
+[![tests](https://github.com/TJC-Tools/TJC.EnumFlags/actions/workflows/ct-matrix.yml/badge.svg)](https://github.com/TJC-Tools/TJC.EnumFlags/actions/workflows/ct-matrix.yml)
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags/graph/badge.svg?token=J5SQ4CYSA9)](https://codecov.io/gh/TJC-Tools/TJC.EnumFlags)
 
 ## Documentation

@@ -1,4 +1,4 @@
-﻿namespace TJC.EnumFlags.Tests.Mocks;
+namespace TJC.EnumFlags.Tests.Mocks;
 
 [Flags]
 internal enum TestEnum

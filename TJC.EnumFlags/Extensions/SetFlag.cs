@@ -1,4 +1,4 @@
-﻿namespace TJC.EnumFlags.Extensions;
+namespace TJC.EnumFlags.Extensions;
 
 /// <summary>
 /// Conversion to UInt64 is used to support enums with any underlying type.

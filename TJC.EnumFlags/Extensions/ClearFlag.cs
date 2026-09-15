@@ -1,4 +1,4 @@
-﻿namespace TJC.EnumFlags.Extensions;
+namespace TJC.EnumFlags.Extensions;
 
 public static partial class EnumFlags
 {
