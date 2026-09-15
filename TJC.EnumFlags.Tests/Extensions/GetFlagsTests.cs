@@ -3,7 +3,6 @@ using TJC.EnumFlags.Tests.Mocks;
 
 namespace TJC.EnumFlags.Tests.Extensions
 {
-    
     public class GetFlagsTests
     {
         [Fact]
@@ -16,7 +15,7 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.GetFlags();
 
             // Assert
-            Assert.Equal(0, result.Count());
+            Assert.Empty(result);
         }
 
         [Fact]
@@ -29,8 +28,8 @@ namespace TJC.EnumFlags.Tests.Extensions
             var result = flags.GetFlags();
 
             // Assert
-            Assert.Equal(1, result.Count());
-            Assert.True(result.Contains(TestEnum.Option1));
+            Assert.Single(result);
+            Assert.Contains(TestEnum.Option1, result);
         }
 
         [Fact]
@@ -44,9 +43,9 @@ namespace TJC.EnumFlags.Tests.Extensions
 
             // Assert
             Assert.Equal(2, result.Count());
-            Assert.True(result.Contains(TestEnum.Option1));
-            Assert.False(result.Contains(TestEnum.Option2));
-            Assert.True(result.Contains(TestEnum.Option3));
+            Assert.Contains(TestEnum.Option1, result);
+            Assert.DoesNotContain(TestEnum.Option2, result);
+            Assert.Contains(TestEnum.Option3, result);
         }
     }
 }
