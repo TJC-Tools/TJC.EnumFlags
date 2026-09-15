@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-09-15
+
 ### Changed
 
 - Updated to .NET 10
@@ -55,11 +57,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Create extensions for get, set, clear & toggle flags
 
-[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.8...HEAD
+[Unreleased]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.10.0...HEAD
+
+[0.10.0]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.8...v0.10.0
 
 [0.9.8]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.7...v0.9.8
 
-[0.9.7]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.6...v0.9.7
+[0.9.7]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.3...v0.9.7
 
 [0.9.3]: https://github.com/TJC-Tools/TJC.EnumFlags/compare/v0.9.2...v0.9.3
 
