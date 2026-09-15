@@ -3,7 +3,6 @@ using TJC.EnumFlags.Tests.Mocks;
 
 namespace TJC.EnumFlags.Tests.Extensions
 {
-    
     public class SetFlagTests
     {
         [Fact]
